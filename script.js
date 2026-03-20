@@ -10,6 +10,7 @@ var flag = 0
 if(flag===0){
  container.style.backgroundColor="white"
     a.innerHTML="bulb is On"
+    btn.innerHTML="OFF"
 bulb.style.backgroundColor="Yellow"
 flag = 1
    }
@@ -17,10 +18,8 @@ flag = 1
 else{
  container.style.backgroundColor="black"
 a.innerHTML="bulb is off"
+btn.innerHTML="On";
 bulb.style.backgroundColor="white"
 flag = 0
   }
 })
-
-
-

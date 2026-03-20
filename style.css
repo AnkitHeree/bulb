@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: white;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    background: rgb(172, 169, 0);
+    border-radius: 20px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+#child{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: rgb(250, 249, 249);
+}
+
+#btn{
+    width: 70px;
+    height: 30px;
+    font-weight: 800;
+    border-radius: 10%;
+}
